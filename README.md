@@ -1,1 +1,3 @@
-# shopify_clone
+# Shopify clone 
+
+I used ReactJS and Tailwindcss
