@@ -41,6 +41,12 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import rema from './rema.jpg'
+import victony from './victony.jpg'
+import burna from './burna.jpg'
+import asa from './asa.jpg'
+import asake from './asake.jpg'
+import ag_baby from './ag_baby.jpg'
 
 export const assets = {
     bell_icon,
@@ -178,5 +184,44 @@ export const songsData = [
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
+    }
+]
+
+export const celebPics= [
+    {
+        id:0,
+        name: "Rema",
+        image: rema,
+        desc:"Artist"
+    },
+    {
+        id:1,
+        name: "Burna Boy",
+        image: burna,
+        desc:"Artist"
+    },
+    {
+        id:2,
+        name: "Asake",
+        image: asake,
+        desc:"Artist"
+    },
+    {
+        id:3,
+        name: "Asa",
+        image: asa,
+        desc:"Artist"
+    },
+    {
+        id:4,
+        name: "AG Baby",
+        image: ag_baby,
+        desc:"Artist"
+    },
+    {
+        id:5,
+        name: "Victony",
+        image: victony,
+        desc:"Artist"
     }
 ]
