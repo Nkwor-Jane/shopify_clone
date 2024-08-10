@@ -6,12 +6,12 @@ import twitter_icon from "../assets/twitter_icon.svg"
 
 const Footer = () => {
   return (
-    <div  className=''>
-        <div className='grid grid-rows-3 lg:flex lg:justify-evenly gap-4 lg:items-start'>
-        <div className='grid grid-cols-2 gap-2'>
+    <div  >
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-[100%] h-56 leading-8  px-3  gap-4 mb-4 place-content-evenly place-items-stretch'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-2'>
             <ul className=' text-slate-300 leading-1 pb-2'>
                 <li className='text-white font-bold text-lg'>Company</li>
-                <li className='cursor-pointer hover:underline hover:text-white'>Abput</li>
+                <li className='cursor-pointer hover:underline hover:text-white'>About</li>
                 <li className='cursor-pointer hover:underline hover:text-white'>Jobs</li>
                 <li className='cursor-pointer hover:underline hover:text-white'>For the Record</li>
             </ul>
@@ -25,7 +25,7 @@ const Footer = () => {
             </ul>
         </div>
 
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-2'>
         <ul className=' text-slate-300 leading-1 pb-2'>
                 <li className='text-white font-bold text-lg'>Useful Links</li>
                 <li className='cursor-pointer hover:underline hover:text-white'>Support</li>
@@ -52,10 +52,9 @@ const Footer = () => {
                 <img src={facebook_icon} alt="instagram icon" className=' bg-slate-50/10 rounded-full cursor-pointer w-12 p-2 hover:bg-slate-50/50' />
             </div>
         </div>
-        </div>
-        
-        <hr />
-        <p className='text-slate-300 py-10'>&copy; 2024 Spotify AB</p>
+        </div>   
+
+         
     </div>
   )
 }
