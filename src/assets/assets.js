@@ -168,23 +168,23 @@ export const songsData = [
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
-    },
-    {
-        id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
-    },
-    {
-        id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
     }
+    // {
+    //     id:6,
+    //     name: "Song Seven",
+    //     image: img7,
+    //     file:song1,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"2:18"
+    // },
+    // {
+    //     id:7,
+    //     name: "Song Eight",
+    //     image: img12,
+    //     file:song2,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"2:35"
+    // }
 ]
 
 export const celebPics= [
