@@ -4,7 +4,7 @@ import globe_icon from "../assets/globe.svg"
 const SideBar = () => {
   return (
     <div className='w-[550px] sm:w-[400px] h-full p-2 flex-col gap-2 text-white  flex'>
-        <div className='bg-[#121212]  rouded flex flex-col justify-around gap-2 pb-2 h-[30%]'>
+        <div className='bg-[#121212]  rouded flex flex-col justify-around gap-2 pb-2'>
         <div className='flex items-center gap-3 pl-8 cursor-pointer pb-1'>
                 <img  className="w-6" src={assets.spotify_logo} alt='Spotify Logo'/>
                 <p className='font-bold'>Spotify</p>
@@ -28,7 +28,7 @@ const SideBar = () => {
                     <img className="w-5" src={assets.plus_icon} alt="Plus icon" />
                 </div>
             </div>
-            <div className=' overflow-x-scroll h-[40px]'>
+            <div className=' overflow-y-scroll mx-auto max-h-40 h-[50px]'>
                 <div className='p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4 '>
                     <h1>Create your first playlist</h1>
                     <p className='font-light'>It&apos;s easy we will help you</p>

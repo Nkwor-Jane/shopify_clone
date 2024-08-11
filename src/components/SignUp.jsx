@@ -3,7 +3,7 @@ import "../App.css"
 
 const SignUp = () => {
   return (
-    <div className=' p-4 flex justify-between items-center rounded-lg color_grad'>
+    <div className=' p-3 flex justify-between items-center rounded-lg color_grad'>
         <div className='text-white' >
             <h2 className='font-medium sm:font-bold'>Preview of Spotify</h2>
             <p className='font-sm sm:font-medium'>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed</p>

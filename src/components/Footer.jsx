@@ -6,7 +6,7 @@ import twitter_icon from "../assets/twitter_icon.svg"
 
 const Footer = () => {
   return (
-    <div className='w-full pt-20'>
+    <div className='w-full pt-20 m-2'>
         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 w-[100%] h-66  leading-2 px-3 grid-cols-2 pb-10">
 
                 <ul className=' text-slate-300 leading-1 pb-2'>

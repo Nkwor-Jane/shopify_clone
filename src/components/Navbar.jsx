@@ -3,12 +3,12 @@ import { assets } from '../assets/assets'
 
 const Navbar = () => {
   return (
-    <div className=' h-[70px] bg-[#030303] fixed top-0 w-full flex justify-between items-center'>
+    <div className=' h-[70px] bg-[#030303]  flex items-center w-full sticky top-0  z-50 justify-between px-4'>   
         <div className='flex  gap-2'>
             <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_left} alt="Left arrow"/>
             <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_right} alt="Right arrow"/>
         </div>
-        <div className=''>
+        <div className='flex items-center justify-center'>
             <p className=' text-slate-200 text-[18px] px-4 py-1 rounded-2xl cursor-pointer hover:scale-y-110 hover:text-white font-semibold'>Sign up</p>
             <p className='px-6 py-1.5 bg-white text-[15px] text-black rounded-full mt-4 cursor-pointer hover:bg-slate-100 hover:scale-110 font-semibold'>Log in</p>
         </div>
